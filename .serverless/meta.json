@@ -1,0 +1,240 @@
+{
+  "C:\\Users\\USER\\new-aws-lambda-project": {
+    "versionSfCore": null,
+    "versionFramework": "4.4.10",
+    "isWithinCompose": false,
+    "isCompose": false,
+    "composeOrgName": null,
+    "composeResolverProviders": {
+      "default-aws-credential-resolver": "<REDACTED>",
+      "sls": {
+        "instance": {
+          "credentials": "<REDACTED>",
+          "serviceConfigFile": {
+            "service": "aws-nodejs",
+            "plugins": [
+              "serverless-offline"
+            ],
+            "provider": {
+              "name": "aws",
+              "runtime": "nodejs18.x",
+              "environment": {
+                "MONGO_URI": "mongodb+srv://namasudrasuranjit164:rahul2314@cluster0.cpyvocf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/valentine_theme"
+              },
+              "stage": "dev",
+              "region": "us-east-1",
+              "versionFunctions": true
+            },
+            "functions": {
+              "addContentCalendarWeeklyDocument": {
+                "handler": "handler.addContentCalendarWeeklyDocument",
+                "events": [
+                  {
+                    "http": {
+                      "path": "addContentCalendarWeeklyDocument",
+                      "method": "post"
+                    }
+                  }
+                ],
+                "name": "aws-nodejs-dev-addContentCalendarWeeklyDocument"
+              },
+              "editContentCalendarWeeklyDocument": {
+                "handler": "handler.editContentCalendarWeeklyDocument",
+                "events": [
+                  {
+                    "http": {
+                      "path": "editContentCalendarWeeklyDocument",
+                      "method": "put"
+                    }
+                  }
+                ],
+                "name": "aws-nodejs-dev-editContentCalendarWeeklyDocument"
+              },
+              "handler": "handler.deleteContentCalendarWeeklyDocument",
+              "events": [
+                {
+                  "http": {
+                    "path": "deleteContentCalendarWeeklyDocument/{id}",
+                    "method": "delete"
+                  }
+                }
+              ],
+              "fetchContentCalendarWeeklyDocument": {
+                "handler": "handler.fetchContentCalendarWeeklyDocument",
+                "events": [
+                  {
+                    "http": {
+                      "path": "fetchContentCalendarWeeklyDocument",
+                      "method": "get"
+                    }
+                  }
+                ]
+              },
+              "fetchAllContentCalendarWeeklyDocuments": {
+                "handler": "handler.fetchAllContentCalendarWeeklyDocuments",
+                "events": [
+                  {
+                    "http": {
+                      "path": "fetchAllContentCalendarWeeklyDocuments",
+                      "method": "get"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "configFileDirPath": "C:\\Users\\USER\\new-aws-lambda-project",
+          "config": {
+            "type": "sls"
+          },
+          "options": {},
+          "stage": "dev",
+          "dashboard": null,
+          "logger": {
+            "namespace": "s:core:resolver:sls",
+            "prefix": null,
+            "prefixColor": null
+          },
+          "_credentialsPromise": "<REDACTED>"
+        },
+        "resolvers": {}
+      }
+    },
+    "composeServiceName": null,
+    "servicePath": "C:\\Users\\USER\\new-aws-lambda-project",
+    "serviceConfigFileName": "serverless.yml",
+    "service": {
+      "service": "aws-nodejs",
+      "plugins": [
+        "serverless-offline"
+      ],
+      "provider": {
+        "name": "aws",
+        "runtime": "nodejs18.x",
+        "environment": {
+          "MONGO_URI": "mongodb+srv://namasudrasuranjit164:rahul2314@cluster0.cpyvocf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/valentine_theme"
+        },
+        "stage": "dev",
+        "region": "us-east-1",
+        "versionFunctions": true
+      },
+      "functions": {
+        "addContentCalendarWeeklyDocument": {
+          "handler": "handler.addContentCalendarWeeklyDocument",
+          "events": [
+            {
+              "http": {
+                "path": "addContentCalendarWeeklyDocument",
+                "method": "post"
+              }
+            }
+          ],
+          "name": "aws-nodejs-dev-addContentCalendarWeeklyDocument"
+        },
+        "editContentCalendarWeeklyDocument": {
+          "handler": "handler.editContentCalendarWeeklyDocument",
+          "events": [
+            {
+              "http": {
+                "path": "editContentCalendarWeeklyDocument",
+                "method": "put"
+              }
+            }
+          ],
+          "name": "aws-nodejs-dev-editContentCalendarWeeklyDocument"
+        },
+        "handler": "handler.deleteContentCalendarWeeklyDocument",
+        "events": [
+          {
+            "http": {
+              "path": "deleteContentCalendarWeeklyDocument/{id}",
+              "method": "delete"
+            }
+          }
+        ],
+        "fetchContentCalendarWeeklyDocument": {
+          "handler": "handler.fetchContentCalendarWeeklyDocument",
+          "events": [
+            {
+              "http": {
+                "path": "fetchContentCalendarWeeklyDocument",
+                "method": "get"
+              }
+            }
+          ]
+        },
+        "fetchAllContentCalendarWeeklyDocuments": {
+          "handler": "handler.fetchAllContentCalendarWeeklyDocuments",
+          "events": [
+            {
+              "http": {
+                "path": "fetchAllContentCalendarWeeklyDocuments",
+                "method": "get"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "serviceRawFile": "service: aws-nodejs\r\n\r\nplugins: \r\n  - serverless-offline\r\n\r\nprovider:\r\n  name: aws\r\n  runtime: nodejs18.x\r\n  environment:\r\n    MONGO_URI: \"mongodb+srv://namasudrasuranjit164:rahul2314@cluster0.cpyvocf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/valentine_theme\"\r\n\r\nfunctions:\r\n  addContentCalendarWeeklyDocument:\r\n    handler: handler.addContentCalendarWeeklyDocument\r\n    events:\r\n      - http:\r\n          path: addContentCalendarWeeklyDocument\r\n          method: post\r\n\r\n  editContentCalendarWeeklyDocument:\r\n    handler: handler.editContentCalendarWeeklyDocument\r\n    events:\r\n      - http:\r\n          path: editContentCalendarWeeklyDocument\r\n          method: put\r\n\r\n  deleteContentCalendarWeeklyDocument:\r\n  handler: handler.deleteContentCalendarWeeklyDocument\r\n  events:\r\n    - http:\r\n        path: deleteContentCalendarWeeklyDocument/{id}\r\n        method: delete\r\n\r\n  fetchContentCalendarWeeklyDocument:\r\n    handler: handler.fetchContentCalendarWeeklyDocument\r\n    events:\r\n      - http:\r\n          path: fetchContentCalendarWeeklyDocument\r\n          method: get\r\n\r\n  fetchAllContentCalendarWeeklyDocuments:\r\n    handler: handler.fetchAllContentCalendarWeeklyDocuments\r\n    events:\r\n      - http:\r\n          path: fetchAllContentCalendarWeeklyDocuments\r\n          method: get\r\n",
+    "command": [
+      "offline"
+    ],
+    "options": {},
+    "error": {
+      "message": "Unexpected \"handler\" function configuration: Expected object received 'handler.deleteContentCalendarWeeklyDocument')",
+      "stack": "ServerlessError2: Unexpected \"handler\" function configuration: Expected object received 'handler.deleteContentCalendarWeeklyDocument')\n    at file:///C:/Users/USER/.serverless/releases/4.4.10/package/dist/sf-core.js:926:11061\n    at Array.forEach (<anonymous>)\n    at Service.setFunctionNames (file:///C:/Users/USER/.serverless/releases/4.4.10/package/dist/sf-core.js:926:10901)\n    at Serverless.run (file:///C:/Users/USER/.serverless/releases/4.4.10/package/dist/sf-core.js:932:10543)\n    at runFramework (file:///C:/Users/USER/.serverless/releases/4.4.10/package/dist/sf-core.js:980:2838)\n    at async route (file:///C:/Users/USER/.serverless/releases/4.4.10/package/dist/sf-core.js:1010:14784)\n    at async Object.run2 [as run] (file:///C:/Users/USER/.serverless/releases/4.4.10/package/dist/sf-core.js:1010:15182)\n    at async run3 (file:///C:/Users/USER/.serverless/releases/4.4.10/package/dist/sf-core.js:1010:16442)",
+      "code": "NON_OBJECT_FUNCTION_CONFIGURATION_ERROR"
+    },
+    "params": {},
+    "machineId": "fcfa35de459231c122136bccc7529839",
+    "stage": "dev",
+    "accessKeyV2": "<REDACTED>",
+    "accessKeyV1": "<REDACTED>",
+    "orgId": "ab63cd7c-a834-490d-a5db-42cbc97648af",
+    "orgName": "suranjitnamasudra",
+    "userId": "DywykjPQTLghJ8hRvf",
+    "dashboard": {
+      "isEnabledForService": false,
+      "requiredAuthentication": false,
+      "orgFeaturesInUse": null,
+      "orgObservabilityIntegrations": null,
+      "serviceAppId": null,
+      "serviceProvider": null,
+      "instanceParameters": null
+    },
+    "userName": "suranjitnamasudra",
+    "subscription": null,
+    "userEmail": "namasudrasuranjit164@gmail.com",
+    "serviceProviderAwsRegion": "us-east-1",
+    "serviceProviderAwsCredentials": "<REDACTED>",
+    "serviceProviderAwsAccountId": "767397936613",
+    "projectType": "traditional",
+    "versionSf": "4.4.10",
+    "serviceProviderAwsCfStackName": "aws-nodejs-dev",
+    "serviceUniqueId": "arn:aws:cloudformation:us-east-1:767397936613:stack/aws-nodejs-dev/d9c8db50-a5a9-11ef-a1ea-0affc5cb1a07",
+    "serviceProviderAwsCfStackId": "arn:aws:cloudformation:us-east-1:767397936613:stack/aws-nodejs-dev/d9c8db50-a5a9-11ef-a1ea-0affc5cb1a07",
+    "serviceProviderAwsCfStackCreated": "2024-11-18T12:37:19.479Z",
+    "serviceProviderAwsCfStackUpdated": "2024-11-18T13:02:55.605Z",
+    "serviceProviderAwsCfStackStatus": "UPDATE_COMPLETE",
+    "serviceProviderAwsCfStackOutputs": [
+      {
+        "OutputKey": "HelloLambdaFunctionQualifiedArn",
+        "OutputValue": "arn:aws:lambda:us-east-1:767397936613:function:aws-nodejs-dev-hello:2",
+        "Description": "Current Lambda function version",
+        "ExportName": "sls-aws-nodejs-dev-HelloLambdaFunctionQualifiedArn"
+      },
+      {
+        "OutputKey": "ServiceEndpoint",
+        "OutputValue": "https://45ibi2iufk.execute-api.us-east-1.amazonaws.com/dev",
+        "Description": "URL of the service endpoint",
+        "ExportName": "sls-aws-nodejs-dev-ServiceEndpoint"
+      },
+      {
+        "OutputKey": "ServerlessDeploymentBucketName",
+        "OutputValue": "serverless-framework-deployments-us-east-1-9c809d65-fb2b",
+        "ExportName": "sls-aws-nodejs-dev-ServerlessDeploymentBucketName"
+      }
+    ]
+  }
+}

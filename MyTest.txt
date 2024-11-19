@@ -1,0 +1,199 @@
+{
+ "theme": "Valentine's Day Romance (Gone Wrong)",
+  "primary_archetype": "Jester",
+  "secondary_archetype": "Everyman",
+  "week_number": 2,
+  "category": "Romance",
+  "subcategory": "Humor",
+  "week": [
+    {
+      "day": "Monday",
+      "theme": "#MondayMadness",
+      "post": {
+        "idea": "A humorous 'Valentine's Day Emergency Kit' featuring our menu items as solutions to common romantic disasters (Menu Madness pillar)",
+        "canva_instructions": [
+          "Create a 1080x1080px square canvas",
+          "Add a light pink background with scattered heart patterns",
+          "Create a title 'Valentine's Emergency Kit' in a playful font",
+          "Divide the canvas into 4 quadrants",
+          "In each quadrant, place an item from the menu with a funny 'emergency' label",
+          "Add small heart band-aids and comic-style 'emergency' symbols",
+          "Include restaurant logo in bottom right corner",
+          "Add a subtle grain texture overlay for vintage first-aid kit feel"
+        ],
+        "prompts": [
+          {
+            "type": "image",
+            "prompt": "A vintage-style first aid kit in pastel pink color with heart decorations, slightly worn edges, top view"
+          },
+          {
+            "type": "text",
+            "prompt": "Write a humorous list of Valentine's Day 'emergencies' and their menu item solutions. Example: 'Forgot to make reservations? Our takeout menu has your back! Different portion sizes available depending on how badly you messed up.' Maintain a playful, witty tone while emphasizing the restaurant's offerings. Include 4-5 scenarios."
+          }
+        ]
+      }
+    },
+    {
+      "day": "Tuesday",
+      "theme": "#TastingTuesday",
+      "post": {
+        "idea": "A 'Taste Test Gone Wrong' series featuring our chef attempting to create a Valentine's special while being hit by Cupid's arrow (Restaurant Life pillar)",
+        "canva_instructions": [
+          "Create a 1080x1080px square canvas",
+          "Design a 3-panel comic strip layout",
+          "Use soft Valentine's colors but with a playful twist",
+          "Add speech bubbles and thought clouds",
+          "Include comic-style action effects",
+          "Place restaurant branding subtly in final panel",
+          "Add hashtags at the bottom"
+        ],
+        "prompts": [
+          {
+            "type": "image",
+            "prompt": "A professional kitchen setting with warm lighting and cooking equipment in the background"
+          },
+          {
+            "type": "text",
+            "prompt": "Create a humorous 3-panel story about a chef trying to perfect a Valentine's Day recipe while under the influence of Cupid's arrow. Include puns and cooking mishaps, but end with a successful dish creation. Keep the tone light and playful while showcasing the chef's expertise."
+          }
+        ]
+      }
+    },
+    {
+      "day": "Wednesday",
+      "theme": "#WackyWednesday",
+      "post": {
+        "idea": "Interactive 'Rate This Date' post featuring hilariously bad date scenarios in our restaurant with multiple-choice endings (Customer Connection pillar)",
+        "canva_instructions": [
+          "Create a 1080x1080px square canvas",
+          "Design in quiz show style format",
+          "Add a bold header 'Rate This Date Scenario'",
+          "Include funny scenario illustration in center",
+          "Create 3 multiple choice options below",
+          "Add engagement prompt at bottom",
+          "Include restaurant branding elements",
+          "Use bright, energetic colors with Valentine's theme"
+        ],
+        "prompts": [
+          {
+            "type": "image",
+            "prompt": "A restaurant table setting with comedic elements like toppled wine glasses, mixed-up orders, and romantic decorations gone wrong"
+          },
+          {
+            "type": "text",
+            "prompt": "Write an engaging choose-your-own-adventure style date scenario at our restaurant with three funny possible endings. Include relatable dating mishaps while highlighting restaurant features. Make it interactive by asking followers to vote on their preferred ending."
+          }
+        ]
+      }
+    },
+    {
+      "day": "Thursday",
+      "theme": "#ThrowbackThursday",
+      "post": {
+        "idea": "A collection of 'Valentine's Days Past' featuring funny customer-submitted dating disaster stories at our restaurant (Customer Connection pillar)",
+        "canva_instructions": [
+          "Create a 1080x1080px square carousel post (3 slides)",
+          "Use retro-style filters and frames",
+          "Add vintage typography for stories",
+          "Include old-school heart decorations",
+          "Create nostalgic color palette",
+          "Add slide numbers",
+          "Include call-to-action for story submissions",
+          "Maintain consistent branding across slides"
+        ],
+        "prompts": [
+          {
+            "type": "image",
+            "prompt": "A vintage-style photograph of a restaurant interior with a romantic ambiance, slightly faded colors and film grain effect"
+          },
+          {
+            "type": "text",
+            "prompt": "Create 3 short, humorous customer stories about Valentine's Day mishaps at the restaurant from previous years. Include relatable moments, funny twists, and happy endings. Keep stories brief but engaging, maintaining a warm and nostalgic tone while highlighting the restaurant's role in these memories."
+          }
+        ]
+      }
+    },
+    {
+      "day": "Friday",
+      "theme": "#FoodiesFriday",
+      "post": {
+        "idea": "Behind-the-scenes video of our 'Love Potion #86' specialty cocktail making process, with intentionally over-the-top romantic garnishes (Menu Madness pillar)",
+        "canva_instructions": [
+          "Create a 1080x1920px video template",
+          "Add floating hearts animation overlay",
+          "Include step-by-step recipe cards",
+          "Insert funny caution labels",
+          "Add romantic music track",
+          "Include humorous warning text",
+          "Place drink specs in elegant font",
+          "Add social sharing buttons"
+        ],
+        "prompts": [
+          {
+            "type": "image",
+            "prompt": "An elaborate cocktail with deep red color, excessive heart-shaped garnishes, sparklers, and over-the-top romantic decorations on a marble bar top"
+          },
+          {
+            "type": "text",
+            "prompt": "Write a humorous recipe introduction and description for our 'Love Potion #86' cocktail. Include overtly romantic language with a twist of comedy, warning labels about side effects (like spontaneous poetry recital), and genuine cocktail ingredients. Balance the humor with actual drink information."
+          }
+        ]
+      }
+    },
+    {
+      "day": "Saturday",
+      "theme": "#SatisfactionSaturday",
+      "post": {
+        "idea": "Launch of our 'Anti-Valentine's Day' special menu with hilariously bitter-sweet dishes (Promotional Content pillar)",
+        "canva_instructions": [
+          "Create a 1080x1080px square canvas",
+          "Use dark romance color scheme",
+          "Add torn heart design elements",
+          "Include menu items with crossed-out cupids",
+          "Create dramatic food photography frames",
+          "Add 'broken heart' discount stamps",
+          "Include booking information",
+          "Add humorous disclaimer text"
+        ],
+        "prompts": [
+          {
+            "type": "image",
+            "prompt": "A dramatic food presentation of a chocolate dessert with a broken heart design made of raspberry sauce, moody lighting"
+          },
+          {
+            "type": "text",
+            "prompt": "Create a promotional description for our Anti-Valentine's Day special menu. Include pun-filled dish names, playfully bitter descriptions, and actual menu items. Maintain a humorous tone while highlighting the quality of the food. Include special pricing and how to book."
+          }
+        ]
+      }
+    },
+    {
+      "day": "Sunday",
+      "theme": "#SundayFunday",
+      "post": {
+        "idea": "Interactive 'Design Your Perfect Date Disaster' game featuring mix-and-match menu items (Restaurant Life pillar)",
+        "canva_instructions": [
+          "Create a 1080x1080px square canvas",
+          "Design as a game board layout",
+          "Add three spinning wheel sections",
+          "Include funny outcome combinations",
+          "Add interactive elements",
+          "Include sharing instructions",
+          "Add restaurant branding",
+          "Include game rules and prizes"
+        ],
+        "prompts": [
+          {
+            "type": "image",
+            "prompt": "A colorful game board design with spinning wheels, restaurant menu items, and playful romantic symbols in a whimsical style"
+          },
+          {
+            "type": "text",
+            "prompt": "Write instructions for an interactive social media game where followers mix and match menu items to create their perfect date disaster. Include funny combination possibilities, prizes for best responses, and actual menu items. Maintain a playful tone while encouraging engagement and highlighting restaurant offerings."
+          }
+        ]
+      }
+    }
+  ]
+ 
+}

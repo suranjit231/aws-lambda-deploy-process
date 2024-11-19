@@ -1,0 +1,48 @@
+service: aws-nodejs
+
+plugins: 
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  environment:
+    MONGO_URI: "mongodb+srv://namasudrasuranjit164:rahul2314@cluster0.cpyvocf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/valentine_theme"
+
+functions:
+  addContentCalendarWeeklyDocument:
+    handler: handler.addContentCalendarWeeklyDocument
+    events:
+      - http:
+          path: addContentCalendarWeeklyDocument
+          method: post
+
+  editContentCalendarWeeklyDocument:
+    handler: handler.editContentCalendarWeeklyDocument
+    events:
+      - http:
+          path: editContentCalendarWeeklyDocument
+          method: put
+
+  functions:
+  deleteContentCalendarWeeklyDocument:
+    handler: handler.deleteContentCalendarWeeklyDocument
+    events:
+      - http:
+          path: deleteContentCalendarWeeklyDocument/{id}
+          method: delete
+
+
+  fetchContentCalendarWeeklyDocument:
+    handler: handler.fetchContentCalendarWeeklyDocument
+    events:
+      - http:
+          path: fetchContentCalendarWeeklyDocument
+          method: get
+
+  fetchAllContentCalendarWeeklyDocuments:
+    handler: handler.fetchAllContentCalendarWeeklyDocuments
+    events:
+      - http:
+          path: fetchAllContentCalendarWeeklyDocuments
+          method: get
