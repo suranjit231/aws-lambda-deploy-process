@@ -7,7 +7,7 @@ provider:
   name: aws
   runtime: nodejs18.x
   environment:
-    MONGO_URI: "mongodb+srv://namasudrasuranjit164:rahul2314@cluster0.cpyvocf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/valentine_theme"
+    MONGO_URI: "Your mongodb url"
 
 functions:
   addContentCalendarWeeklyDocument:
